@@ -6,7 +6,29 @@ namespace CG_5_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //declare string variable
+            string firstName;
+            string middleInit;
+            string lastName;
+            
+            //Request user input of name
+            Console.WriteLine("Hey You!");
+
+            Console.Write("Tell me your first name: ");
+
+            firstName = Console.ReadLine();
+
+            Console.Write("Tell me your middle initial: ");
+
+            middleInit = Console.ReadLine();
+
+            Console.Write("Tell me your last name: ");
+
+            lastName = Console.ReadLine();
+
+            Console.WriteLine($"Your full name is {firstName} {middleInit} {lastName}");
+
+            Console.ReadLine();
         }
     }
 }
